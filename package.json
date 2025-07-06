@@ -1,5 +1,6 @@
 {
-  "name": "@google/gemini-cli",
+  "name": "@whisper-ai/whisper-cli",
+  "description": "Whisper Security CLI",
   "version": "0.1.8",
   "engines": {
     "node": ">=18.0.0"
@@ -8,7 +9,7 @@
   "workspaces": [
     "packages/*"
   ],
-  "repository": "google-gemini/gemini-cli",
+  "repository": "whisper-ai/whisper-cli",
   "config": {
     "sandboxImageUri": "us-docker.pkg.dev/gemini-code-dev/gemini-cli/sandbox:0.1.7"
   },

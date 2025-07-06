@@ -14,6 +14,10 @@
     "module": "NodeNext",
     "moduleResolution": "nodenext",
     "target": "es2022",
-    "types": ["node", "vitest/globals"]
+    "types": ["node", "vitest/globals"],
+    "baseUrl": ".",
+    "paths": {
+      "@whisper-ai/whisper-cli-core": ["packages/core/src/index.ts"]
+    }
   }
 }

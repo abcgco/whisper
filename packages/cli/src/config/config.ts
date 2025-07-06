@@ -18,7 +18,7 @@ import {
   DEFAULT_GEMINI_EMBEDDING_MODEL,
   FileDiscoveryService,
   TelemetryTarget,
-} from '@google/gemini-cli-core';
+} from '@whisper-ai/whisper-cli-core';
 import { Settings } from './settings.js';
 
 import { Extension } from './extension.js';

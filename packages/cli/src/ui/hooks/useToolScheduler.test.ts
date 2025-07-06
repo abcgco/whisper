@@ -24,7 +24,7 @@ import {
   ToolCall, // Import from core
   Status as ToolCallStatusType,
   ApprovalMode, // Import from core
-} from '@google/gemini-cli-core';
+} from '@whisper-ai/whisper-cli-core';
 import {
   HistoryItemWithoutId,
   ToolCallStatus,
@@ -32,8 +32,8 @@ import {
 } from '../types.js';
 
 // Mocks
-vi.mock('@google/gemini-cli-core', async () => {
-  const actual = await vi.importActual('@google/gemini-cli-core');
+vi.mock('@whisper-ai/whisper-cli-core', async () => {
+  const actual = await vi.importActual('@whisper-ai/whisper-cli-core');
   return {
     ...actual,
     ToolRegistry: vi.fn(),

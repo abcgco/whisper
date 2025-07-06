@@ -22,10 +22,10 @@ import {
   type EditorType,
   checkHasEditorType,
   allowEditorTypeInSandbox,
-} from '@google/gemini-cli-core';
+} from '@whisper-ai/whisper-cli-core';
 
-vi.mock('@google/gemini-cli-core', async () => {
-  const actual = await vi.importActual('@google/gemini-cli-core');
+vi.mock('@whisper-ai/whisper-cli-core', async () => {
+  const actual = await vi.importActual('@whisper-ai/whisper-cli-core');
   return {
     ...actual,
     checkHasEditorType: vi.fn(() => true),

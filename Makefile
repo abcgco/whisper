@@ -3,7 +3,7 @@
 .PHONY: help install build build-sandbox build-all test lint format preflight clean start debug release run-npx create-alias
 
 help:
-	@echo "Makefile for gemini-cli"
+	@echo "Makefile for whisper-cli"
 	@echo ""
 	@echo "Usage:"
 	@echo "  make install          - Install npm dependencies"

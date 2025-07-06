@@ -33,9 +33,10 @@ import {
   sessionId,
   logUserPrompt,
   AuthType,
-} from '@google/gemini-cli-core';
+} from '@whisper-ai/whisper-cli-core';
 import { validateAuthMethod } from './config/auth.js';
 import { setMaxSizedBoxDebugging } from './ui/components/shared/MaxSizedBox.js';
+import { scanCommand } from './scan.js';
 
 function getNodeMemoryArgs(config: Config): string[] {
   const totalMemoryMB = os.totalmem() / (1024 * 1024);

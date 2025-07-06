@@ -1,8 +1,8 @@
 {
-  "name": "@google/gemini-cli-core",
+  "name": "@whisper-ai/whisper-cli-core",
   "version": "0.1.8",
-  "description": "Gemini CLI Server",
-  "repository": "google-gemini/gemini-cli",
+  "description": "Whisper Security CLI Server",
+  "repository": "whisper-ai/whisper-cli",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
